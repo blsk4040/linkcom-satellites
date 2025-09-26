@@ -73,33 +73,34 @@
     </style>
 </head>
 <body class="bg-gray-50 font-sans">
+    
     <!-- Navigation Bar -->
-    <nav class="navbar fixed top-0 w-full bg-white shadow-md z-50 transition-all duration-300">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <a href="#home">
-                <img src="imgs/logo/SATELLITES LOGO FINAL.png" alt="Linkcom Satellites Logo" class="h-12 sm:h-16 object-contain">
-            </a>
-            <div class="hidden md:flex space-x-6">
-                <a href="#home" class="text-gray-600 hover:text-blue-600 font-medium">Home</a>
-                <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium">About Us</a>
-                <a href="#services" class="text-gray-600 hover:text-blue-600 font-medium">Services</a>
-                <a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium">Contact</a>
-            </div>
-            <button id="menu-toggle" class="md:hidden text-gray-600 focus:outline-none">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                </svg>
-            </button>
+<nav class="navbar fixed top-0 w-full bg-white shadow-md z-50 transition-all duration-300">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+        <a href="#home" class="logo-container">
+            <img src="imgs/logo/SATELLITES LOGO FINAL.png" alt="Linkcom Satellites Logo" class="h-16 sm:h-20 object-contain">
+        </a>
+        <div class="hidden md:flex space-x-6">
+            <a href="#home" class="text-gray-600 hover:text-blue-600 font-medium">Home</a>
+            <a href="#about" class="text-gray-600 hover:text-blue-600 font-medium">About Us</a>
+            <a href="#services" class="text-gray-600 hover:text-blue-600 font-medium">Services</a>
+            <a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium">Contact</a>
         </div>
-        <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
-            <ul class="flex flex-col space-y-4 py-4 px-6">
-                <li><a href="#home" class="text-gray-600 hover:text-blue-600 font-medium">Home</a></li>
-                <li><a href="#about" class="text-gray-600 hover:text-blue-600 font-medium">About Us</a></li>
-                <li><a href="#services" class="text-gray-600 hover:text-blue-600 font-medium">Services</a></li>
-                <li><a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+        <button id="menu-toggle" class="md:hidden text-gray-600 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+        </button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+        <ul class="flex flex-col space-y-4 py-4 px-6">
+            <li><a href="#home" class="text-gray-600 hover:text-blue-600 font-medium">Home</a></li>
+            <li><a href="#about" class="text-gray-600 hover:text-blue-600 font-medium">About Us</a></li>
+            <li><a href="#services" class="text-gray-600 hover:text-blue-600 font-medium">Services</a></li>
+            <li><a href="#contact" class="text-gray-600 hover:text-blue-600 font-medium">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
     <!-- Hero Section -->
     <section id="home" class="hero-section min-h-screen flex items-center justify-center pt-20 relative">
@@ -346,73 +347,74 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
-        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div>
-                    <img src="imgs/logo/SATELLITES LOGO FINAL.png" alt="Linkcom Satellites Logo" class="h-12 mb-4">
-                    <p class="text-sm sm:text-base text-gray-300">
-                        Linkcom Satellites provides top-tier DSTV, CCTV, TV mounting, alarm, and Wi-Fi solutions across Johannesburg, Pretoria, and Gauteng.
-                    </p>
-                </div>
-                <div>
-                    <h3 class="text-lg sm:text-xl font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#home" class="text-gray-300 hover:text-blue-400 transition">Home</a></li>
-                        <li><a href="#about" class="text-gray-300 hover:text-blue-400 transition">About Us</a></li>
-                        <li><a href="#services" class="text-gray-300 hover:text-blue-400 transition">Services</a></li>
-                        <li><a href="#contact" class="text-gray-300 hover:text-blue-400 transition">Contact</a></li>
-                        <li><a href="/privacy" class="text-gray-300 hover:text-blue-400 transition">Privacy Policy</a></li>
-                        <li><a href="/terms" class="text-gray-300 hover:text-blue-400 transition">Terms of Service</a></li>
-                        <li><a href="/faq" class="text-gray-300 hover:text-blue-400 transition">FAQs</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg sm:text-xl font-bold mb-4">Contact Us</h3>
-                    <ul class="space-y-2">
-                        <li><a href="tel:+27645421126" class="text-gray-300 underline hover:text-blue-400 cursor-pointer transition">Phone: +27645421126</a></li>
-                        <li><a href="mailto:info@linkcomsatellites.com" class="text-gray-300 hover:text-blue-400 transition">Email: info@linkcomsatellites.com</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg sm:text-xl font-bold mb-4">Operating Hours</h3>
-                    <p class="text-sm sm:text-base text-gray-300 mb-4">Mon-Sat 8AM-5PM</p>
-                    <h3 class="text-lg sm:text-xl font-bold mb-4">Service Areas</h3>
-                    <ul class="text-sm sm:text-base text-gray-300 space-y-1">
-                        <li> Johannesburg</li>
-                        <li> Pretoria</li>
-                        <li> Midrand</li>
-                        <li> Centurion</li>
-                        <li> Randburg</li>
-                        <li> Sandton</li>
-                    </ul>
-                    <div class="flex space-x-4 mt-4">
-                        <a href="https://www.facebook.com/linkcomsatellites" class="text-gray-300 hover:text-blue-400 transition">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 13.59c0 .78-.63 1.41-1.41 1.41h-2.18v-4.59h1.59c.22 0 .4-.18.4-.4V9.4c0-.22-.18-.4-.4-.4h-1.59V7.41c0-.22-.18-.4-.4-.4h-1.59c-.22 0-.4.18-.4.4v1.59h-1.59c-.22 0-.4.18-.4.4v2.59c0 .22.18.4.4.4h1.59v4.59H8.41c-.78 0-1.41-.63-1.41-1.41V8.41c0-.78.63-1.41 1.41-1.41h7.18c.78 0 1.41.63 1.41 1.41v7.18z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.twitter.com/linkcomsat" class="text-gray-300 hover:text-blue-400 transition">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H7v-3h3V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.91 8-4.94 8-9.95z"/>
-                            </svg>
-                        </a>
-                        <a href="https://www.instagram.com/linkcomsatellites" class="text-gray-300 hover:text-blue-400 transition">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 16h-2v-2h2v2zm0-4h-2V8h2v6zm-4 4h-2v-2h2v2zm0-4h-2V8h2v6zm-4 4H8v-2h2v2zm0-4H8V8h2v6z"/>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+<footer class="bg-gray-900 text-white py-12">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <img src="imgs/logo/SATELLITES LOGO FINAL.png" alt="Linkcom Satellites Logo" class="h-16 mb-4">
                 <p class="text-sm sm:text-base text-gray-300">
-                    &copy; 2025 Linkcom Satellites. All rights reserved. | 
-                    Designed by <a href="https://www.nhx.co.za" class="text-gray-300 hover:text-blue-400 transition">www.nhx.co.za</a>.
+                    Linkcom Satellites provides top-tier DSTV, CCTV, TV mounting, alarm, and Wi-Fi solutions across Johannesburg, Pretoria, and Gauteng.
                 </p>
             </div>
+            <!-- Rest of the footer remains unchanged -->
+            <div>
+                <h3 class="text-lg sm:text-xl font-bold mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#home" class="text-gray-300 hover:text-blue-400 transition">Home</a></li>
+                    <li><a href="#about" class="text-gray-300 hover:text-blue-400 transition">About Us</a></li>
+                    <li><a href="#services" class="text-gray-300 hover:text-blue-400 transition">Services</a></li>
+                    <li><a href="#contact" class="text-gray-300 hover:text-blue-400 transition">Contact</a></li>
+                    <li><a href="/privacy" class="text-gray-300 hover:text-blue-400 transition">Privacy Policy</a></li>
+                    <li><a href="/terms" class="text-gray-300 hover:text-blue-400 transition">Terms of Service</a></li>
+                    <li><a href="/faq" class="text-gray-300 hover:text-blue-400 transition">FAQs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg sm:text-xl font-bold mb-4">Contact Us</h3>
+                <ul class="space-y-2">
+                    <li><a href="tel:+27645421126" class="text-gray-300 underline hover:text-blue-400 cursor-pointer transition">Phone: +27645421126</a></li>
+                    <li><a href="mailto:info@linkcomsatellites.com" class="text-gray-300 hover:text-blue-400 transition">Email: info@linkcomsatellites.com</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg sm:text-xl font-bold mb-4">Operating Hours</h3>
+                <p class="text-sm sm:text-base text-gray-300 mb-4">Mon-Sat 8AM-5PM</p>
+                <h3 class="text-lg sm:text-xl font-bold mb-4">Service Areas</h3>
+                <ul class="text-sm sm:text-base text-gray-300 space-y-1">
+                    <li>Johannesburg</li>
+                    <li>Pretoria</li>
+                    <li>Midrand</li>
+                    <li>Centurion</li>
+                    <li>Randburg</li>
+                    <li>Sandton</li>
+                </ul>
+                <div class="flex space-x-4 mt-4">
+                    <a href="https://www.facebook.com/linkcomsatellites" class="text-gray-300 hover:text-blue-400 transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 13.59c0 .78-.63 1.41-1.41 1.41h-2.18v-4.59h1.59c.22 0 .4-.18.4-.4V9.4c0-.22-.18-.4-.4-.4h-1.59V7.41c0-.22-.18-.4-.4-.4h-1.59c-.22 0-.4.18-.4.4v1.59h-1.59c-.22 0-.4.18-.4.4v2.59c0 .22.18.4.4.4h1.59v4.59H8.41c-.78 0-1.41-.63-1.41-1.41V8.41c0-.78.63-1.41 1.41-1.41h7.18c.78 0 1.41.63 1.41 1.41v7.18z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.twitter.com/linkcomsat" class="text-gray-300 hover:text-blue-400 transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H7v-3h3V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.91 8-4.94 8-9.95z"/>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/linkcomsatellites" class="text-gray-300 hover:text-blue-400 transition">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4 16h-2v-2h2v2zm0-4h-2V8h2v6zm-4 4h-2v-2h2v2zm0-4h-2V8h2v6zm-4 4H8v-2h2v2zm0-4H8V8h2v6z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
-    </footer>
+        <div class="mt-8 pt-8 border-t border-gray-700 text-center">
+            <p class="text-sm sm:text-base text-gray-300">
+                &copy; 2025 Linkcom Satellites. All rights reserved. | 
+                Designed by <a href="https://www.nhx.co.za" class="text-gray-300 hover:text-blue-400 transition">www.nhx.co.za</a>.
+            </p>
+        </div>
+    </div>
+</footer>
 
     <!-- Sticky CTA Bar -->
     <div class="fixed bottom-0 left-0 w-full bg-blue-600 text-white text-center py-3 z-50 sm:block hidden">
