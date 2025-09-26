@@ -174,3 +174,33 @@ body {
 .stagger-1.animate { animation-delay: 0.2s; }
 .stagger-2.animate { animation-delay: 0.4s; }
 .stagger-3.animate { animation-delay: 0.6s; }
+
+/* Navigation Bar Logo */
+.navbar .logo-container img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar .logo-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+    .navbar .logo-container img {
+        height: 4rem; /* Adjusted for mobile */
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar .logo-container img {
+        height: 6rem; /* Adjusted for tablets */
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar .logo-container img {
+        height: 7rem; /* Adjusted for desktops */
+    }
+}
