@@ -188,19 +188,19 @@ body {
 /* Responsive adjustments */
 @media (max-width: 640px) {
     .navbar .logo-container img {
-        height: 4rem; /* Adjusted for mobile */
-        padding: 0.5rem;
+        height: 5.5rem; /* Smaller size for mobile */
+        padding: 0.25rem;
     }
 }
 
 @media (min-width: 768px) {
     .navbar .logo-container img {
-        height: 6rem; /* Adjusted for tablets */
+        height: 8rem; /* Slightly larger for tablets */
     }
 }
 
 @media (min-width: 1024px) {
     .navbar .logo-container img {
-        height: 7rem; /* Adjusted for desktops */
+        height: 10rem; /* Larger for desktops */
     }
 }
